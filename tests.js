@@ -1,18 +1,24 @@
+const path = require('path');
 const assert = require('assert');
 const params = require('./lib/params');
 
 const initialFixture = ['/usr/local/bin/node', __dirname];
 
 describe('params', () => {
-    it('should return an object with correct key-value structure', () => {
-        const args = ['-f', 'index.html', '-c', 'config.json', '-d', 'dist'];
-        const actual = params([...initialFixture, ...args]);
+    function verify(args) {
+        const dir = 'src';
+        const actual = params([...initialFixture, ...args], dir);
         const expected = {
-            '-f': 'index.html',
-            '-c': 'config.json',
-            '-d': 'dist'
+            '-f': path.join(dir, 'index.html'),
+            '-c': path.join(dir, 'config.json'),
+            '-d': path.join(dir, 'dist')
         };
 
         assert.deepEqual(actual, expected);
+    }
+
+    it('should return an object with correct key-value structure', () => {
+        const args = ['-f', 'index.html', '-c', 'config.json', '-d', 'dist'];
+        verify(args);
     });
 });
