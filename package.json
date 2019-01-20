@@ -1,16 +1,16 @@
 {
-  "scripts": {
-    "test": "node_modules/mocha/bin/mocha tests.js"
-  },
-  "devDependencies": {
-    "mocha": "^5.2.0"
-  },
-  "name": "simple-template",
+  "name": "node-simple-template",
   "description": "Solution to insert variables into HTML.",
   "version": "1.0.0",
   "main": "index.js",
   "directories": {
     "lib": "lib"
+  },
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha tests.js"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
   },
   "dependencies": {},
   "repository": {
