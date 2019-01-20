@@ -1,9 +1,32 @@
 {
   "scripts": {
-    "test": "node_modules/mocha/bin/mocha tests.js" 
+    "test": "node_modules/mocha/bin/mocha tests.js"
   },
-
   "devDependencies": {
     "mocha": "^5.2.0"
-  }
+  },
+  "name": "simple-template",
+  "description": "Solution to insert variables into HTML.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EvandroLG/simple-template.git"
+  },
+  "keywords": [
+    "node",
+    "template",
+    "back-end",
+    "variables"
+  ],
+  "author": "evandrolg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EvandroLG/simple-template/issues"
+  },
+  "homepage": "https://github.com/EvandroLG/simple-template#readme"
 }
