@@ -3,7 +3,7 @@ Solution to insert variables into HTML.
 
 ## Installation
 ```js
-    $ npm install node-simple-template
+$ npm install node-simple-template
 ```
 
 ## How does it work?
@@ -15,7 +15,7 @@ The template should contain the variables within two curly braces, for example `
 To you use `simple-template`, run the following command in your terminal, passing the correct values:
 
 ```bash
-    simple-template -f YOUR_FILE.html -c YOUR_CONFIG.json -d YOUR_DIST
+$ simple-template -f YOUR_FILE.html -c YOUR_CONFIG.json -d YOUR_DIST
 ```
 
 Then, `simple-template` will create a new file based on the file which you provided per parameter and will replace the variables with the values taken from the configuration file. The new file will be created in the directory you passed by parameter.
