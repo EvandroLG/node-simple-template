@@ -1,4 +1,4 @@
-# simple-template
+# node-simple-template
 Solution to insert variables into HTML.
 
 ## Installation
@@ -12,10 +12,10 @@ It accepts three parameters: `-f` (file), `-c` (config file with the variables) 
 
 The template should contain the variables within two curly braces, for example `{{myVariable}}`.
 
-To you use `simple-template`, run the following command in your terminal, passing the correct values:
+To you use `node-simple-template`, run the following command in your terminal, passing the correct values:
 
 ```bash
-$ simple-template -f YOUR_FILE.html -c YOUR_CONFIG.json -d YOUR_DIST
+$ node-simple-template -f YOUR_FILE.html -c YOUR_CONFIG.json -d YOUR_DIST
 ```
 
 Then, `simple-template` will create a new file based on the file which you provided per parameter and will replace the variables with the values taken from the configuration file. The new file will be created in the directory you passed by parameter.

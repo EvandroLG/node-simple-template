@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /*
-  * simple-template
+  * node-simple-template
   * http://github.com/EvandroLG/node-compressor
   * author: Evandro Leopoldino Goncalves <evandrolgoncalves@gmail.com>
   * http://github.com/evandrolg
