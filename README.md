@@ -7,7 +7,7 @@ $ npm install node-simple-template
 ```
 
 ## How does it work?
-`simple-template` is a simple command line tool which makes easy insert variables into HTML files.
+`node-simple-template` is a simple command line tool which makes easy insert variables into HTML files.
 It accepts three parameters: `-f` (file), `-c` (config file with the variables) and `-d` (directory where you will create the new html).
 
 The template should contain the variables within two curly braces, for example `{{myVariable}}`.
